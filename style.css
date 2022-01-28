@@ -1,0 +1,262 @@
+body{
+    font-family: "Open Sans", sans-serif !important;
+}
+.topbar{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.topbar,.topbar a{
+    background-color: #ebebeb;
+}
+.topbar .locdiv{
+    color: #555;
+    font-size: 15px;
+}
+
+.ps{
+    position: -webkit-sticky!important;
+    position: sticky;
+    top: 0;
+    
+}
+.nexhelp{}
+.nav-link{
+    color:black !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+.mybtn{
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+.postbtn{
+    font-weight: bold !important;
+
+    color: white;
+}
+.header{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+section{
+    padding: 70px 0px !important;
+}
+.nexicons{
+    margin-left:30px !important;
+}
+.servimg{
+    width: 100%;
+}
+.h3serv{
+    font-size: 16px;
+    font-weight: bold;
+}
+.pserv{
+    font-size: 15px;
+}
+.learnlink{
+    text-decoration: none;
+    font-weight:500;
+
+    font-size: 14px;
+}
+.container{
+    width:1140px;
+    margin: auto;
+}
+#fact h2{
+    color:white;
+    font-size: 44px;
+    font-weight: bold;
+}
+#fact h3{
+    font-weight: bold;
+
+    color:#ffb600;
+    font-size: 16px;
+}
+.box-info {
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+.section-title {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.section-sub-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 0 60px;
+    color: #212121;
+}
+
+.date{
+    color:#555;
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+}
+.footer h3{
+    font-size: 16px !important;
+}
+.footer p{
+    color: #999;
+}
+.footer li{
+    list-style: none;
+    display: inline-block;
+
+}
+.footer i{
+    color: #999;
+}
+.tr{
+    float: right;
+}
+.marb{
+    margin: 0 0 30px !important;
+
+}
+.mar{
+    margin-right: 20px !important;
+
+}
+.flist{
+    background-color: transparent !important;
+    text-decoration: none;
+}
+.flist a{
+    text-decoration: none !important;
+    color: #999 !important;
+
+}
+.copyright{
+    font-weight: 600;
+    font-size: 12px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    padding: 30px;
+    color: #000 !important;
+    font-family: "Open Sans", sans-serif;
+}
+.copyright a, .copyright p{
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.65) !important;
+    position: absolute;
+    top:35%;
+    width: 40%;
+    margin-left:10% !important;
+
+}
+.bo,.bs{
+    background-color: rgba(0, 0, 0, 0.65) !important;
+}
+.c{
+    height: 10px !important;
+    width: 10px 
+    !important;
+}
+.quote-text,.figures{
+    padding: 30px;
+}
+.fi{
+width: 130px;
+height: 90px;
+}
+.wh{
+    width: 340px; 
+    height: 280px;
+}
+.z{
+    z-index: 5;
+}
+.navimages{
+    background-color: #f9f9f9;
+}
+.navimages ul li  .active{
+    background-color: #ffb600 !important;
+}
+.navimages .btn-warning:hover{
+    background-color: #000;
+    color: white;
+}
+
+
+.projectcontainer
+{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.projectcontainer:hover .image 
+{
+
+    transform: scale(1.1);
+}
+
+.projectcontainer:hover .overlay {
+    opacity: 1;
+}
+.plus{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:  white !important;
+    background-color: #ffb600;
+    padding: 10px;
+    
+}
+.overbtn{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+.overtitle{
+    font-weight: bolder;
+    position: absolute;
+    top: 45%;
+    font-family: "Open Sans", sans-serif;
+    left: 10%;
+}
+.overtitle:hover{
+    color:  #ffb600 !important;
+
+}
